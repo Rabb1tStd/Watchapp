@@ -6,8 +6,6 @@
 
 テストを一切行っていないため、バグが多く、環境によっては動作しないという可能性もあるため、 予めご了承ください。(バグ報告は@moka_Rabb1tまで)
 
-URL機能を追加しましたが、クラッシュバグが起きます。 URLを入力するtextboxには絶対にURL以外入力し検索しないでください　普通にアプリが落ちます。
-
 アプリの利用についてはすべて自己責任でお願い致します。 たとえ本アプリを利用することで、利用者および第三者に損害が発生したとしても、 対応致しかねます。
 
 上記の事項をご理解いただいた上で正しくご使用ください。
@@ -19,7 +17,11 @@ URL機能を追加しましたが、クラッシュバグが起きます。 URL�
 2    Microsoft Edge WebView2 runtimeのインストールをhttps://developer.microsoft.com/en-us/microsoft-edge/webview2/ で行ってください。　よくわからなかったらBootstrapperのdownloadでいいです。
 
 
-順序 1 インストールしたファイルを解凍する⇒ファイルを開く⇒WatchAlongParty.exeを起動。 2 .NET coreのインストール指示が出るのでそれに従って.netcoreのインストールを開始。 3 「https://developer.microsoft.com/en-us/microsoft-edge/webview2/」 でWebView2 runtimeをインストール。
+順序 
+1 インストールしたファイルを解凍する⇒ファイルを開く⇒WatchAlongParty.exeを起動。 
+2 .NET coreのインストール指示が出るのでそれに従って.netcoreのインストールを開始。 
+3 「https://developer.microsoft.com/en-us/microsoft-edge/webview2/」 でWebView2 runtimeをインストール。
+
 
 主な機能
 
@@ -36,3 +38,5 @@ Gはgoogleに移動
 注意左上の"="のマークはまだ作成中ですのでクリックしても何も起こりません。
 
 問題が発生したらとりあえず再起動してみてください。
+
+URL機能　textboxにURLを入力して検索ボタンを押すと指定したURLに飛ぶことができます。
